@@ -1,0 +1,25 @@
+$danger: #F71B1B;
+$greenColor: #1C7C17;
+$pama: 30px;
+
+
+.container { padding: 70px 30px 100px 30px; }
+.errorMsg{color: $danger; text-align: center;}
+.title{
+	background-color: $greenColor;
+	color: #fff;
+	text-align: center;
+	padding: $pama;
+}
+.carsUl{
+	list-style: none;
+	li p{
+		padding: 10px 30px;
+		border-radius: 5px;
+		background-color: $greenColor;
+		color: #fff;
+		margin-right: 40px;
+	}
+}
+.carModel{ padding-left: 50px;}
+.carShow{ padding-left: 70px;}
